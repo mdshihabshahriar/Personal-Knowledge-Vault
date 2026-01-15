@@ -2,6 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .container{
     width: 1600px;
     height: 92px;
@@ -100,7 +106,7 @@ body{
 } */
 .main-heading1{
     text-align: center;
-    gap: 16px;
+    /* gap: 16px; */
 }
 .main-heading1 h2{
     font-weight: 700;
@@ -113,4 +119,47 @@ body{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 60px 120px 48px 120px;
+}
+.card-info{
+    width: 250px;
+    height: 300px;
+    /* gap: 16px; */
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card-info h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+}
+.card-info p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle img{
+    width: 32px;
+    height: 32px;
 }
